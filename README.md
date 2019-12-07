@@ -1,1 +1,1 @@
-# ClickToStarSyllabus
+# ClickToStartSyllabus
