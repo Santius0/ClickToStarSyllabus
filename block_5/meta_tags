@@ -1,0 +1,50 @@
+What are Meta Tags?
+
+Meta tags, <meta>, provides metadata about the HTML document. 
+Metadata is a set of data that describes and gives information about other data
+Example: 
+Info on student named John:
+Age - 15
+Sex - male
+Form - form 4
+Grade average - 70%
+The Metadata could describe this student for other purposes, such as looks
+Height - 164cm
+Eye colour - brown
+body size - medium
+
+In HTML, meta elements are typically used to specify page description, keywords
+,author of the document, last modified, and other metadata
+
+Meta tags always go inside the <header> elements and is always passed as mane value pairs
+Example:
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+The <meta> viewport element should be included in all web pages.
+This gives the browser instructions on how how to control the page's dimensions and scaling
+The width=device-width part sets the width of the page to follow the screen-width of the device 
+(which will vary depending on the device).
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+Property Meta Tags
+
+When sharing a website on social media, it's desplayed as a name, picture and website in one block.
+Example, when sharing a YouTube link on WhatsApp, it appears as a picture and description below as one group.
+Meta tags allow for this to be possible.
+
+Using Facebook as the primary example, when a link is shared, it takes the associated webpage and reads
+its <meta> tags tp display the appropriate information.
+The 4 required tags to make this possible on Facebook are: Title, Description, Image and URL
+
+<meta property="og:title" content="European Travel Destinations">
+<meta property="og:description" content="Offering tour packages for individuals or groups.">
+<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+<meta property="og:url" content="http://euro-travel-example.com/index.htm">
+
+Reference https://css-tricks.com/essential-meta-tags-social-media/
