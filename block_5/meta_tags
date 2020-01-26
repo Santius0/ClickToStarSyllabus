@@ -39,7 +39,8 @@ Example, when sharing a YouTube link on WhatsApp, it appears as a picture and de
 Meta tags allow for this to be possible.
 
 Using Facebook as the primary example, when a link is shared, it takes the associated webpage and reads
-its <meta> tags tp display the appropriate information.
+its <meta> tags to display the appropriate information.
+Facebook does this by using the Open Graph Meta-Tag
 The 4 required tags to make this possible on Facebook are: Title, Description, Image and URL
 
 <meta property="og:title" content="European Travel Destinations">
@@ -47,4 +48,10 @@ The 4 required tags to make this possible on Facebook are: Title, Description, I
 <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
 <meta property="og:url" content="http://euro-travel-example.com/index.htm">
 
-Reference https://css-tricks.com/essential-meta-tags-social-media/
+The minimum size of the picture should be  200 x 200 pixels, and the size must not exceed 8MB.
+For the best display, use images that are at least 1200 x 630 pixels. Try to keep images as close to 1.91:1 aspect ratio as possible
+to display the full image in News feed without cropping.
+
+References
+https://css-tricks.com/essential-meta-tags-social-media/
+https://developers.facebook.com/docs/sharing/webmasters/images/

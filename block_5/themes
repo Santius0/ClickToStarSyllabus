@@ -1,0 +1,25 @@
+Websites for Mobile and Desktops
+
+Websites can be made specifically for mobile devices. These websites usually start with m. Example, m.facebook.com.
+Creating websites specifically for mobile devices usually means that you now have 2 websites to maintain and update rather than 1.
+
+If you want a website that could work both on desktops and mobile devices, in the css section, the page size is set dynamically.
+It's usually set with minimum values and can be increase according to the size of the device using viewport.
+These are called dynamic websites.
+
+JavaScript
+
+JavaScript is one of the 3 core languages of websites.
+HTML - controls the structure of your webpage
+CSS - controls the presentation/design
+JavaScript - adds behaviour and interactivity
+
+If in the website you have a gallery and you want users to be able to zoom in and out of your images, JavaScript would be best to use
+to get that function.
+
+JavaScript is a scripting language. It is intentionally limited, doesn't have the same features as other programming languages, cannot communicate
+directly with a database or file system on a computer, but it is great at manipulating web pages.
+
+JavaScript is a client side language, meaning that it runs on your browser.
+Note:
+JavaScript is not and has nothing to do with Java. The official name for JavaScript is ECMAScript
