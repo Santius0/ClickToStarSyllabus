@@ -33,10 +33,13 @@ Let's quickly fix this. In your `style` tag, let's add a new class for "banner" 
 ```css
 .banner {
     text-align: center;
+    margin: 40px auto;
 }
 ```
 
 You just created a new CSS style for the banner class with the `text-align` property. As you expect, that property determines how the text is written in our `div`. In this case, our text grows from the centre.
+
+You also added a margin to the top and bottom of the banner. It gives just the right amount of space from the top to make the website look good.
 
 Good work! Before we can use our new font we need to load it. In your `style` tag, add this bit of CSS code to load the Dosis font:
 
