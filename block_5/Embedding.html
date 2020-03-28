@@ -1,27 +1,74 @@
-
-
-
-
-
 <!DOCTYPE html>
-
 <html>
 <head>
     <title>My Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #header{
+            min-height: 100px;
+            background-color: #666699;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        section {
+            display: -webkit-flex;
+            display: flex;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        #menu{
+            min-height: 40px;
+            min-width: 200px;
+            background-color: #999999;
+        }
+        #body{
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            min-height: 400px;
+            background-color: #666699;
+        }
+        #header, #menu, #body, #footer{
+            
+            box-shadow: 3px 5px 7px #666666;
+            border: 1px solid black;
+        }
+        h3{
+            text-align: center;
+        }
+        iframe{
+            margin-left: 35%;
+            margin-right: 35%;
+        }
+    
+    </style>
 </head>
-
 <body>
-    <h1>Embedding videos on an HTML page</h1>
-    <p>It is recommended to upload all videos to YouTube then embed the YouTube video.</p>
-    <h3>Using iFrame:</h3>
-    <iframe width="420" height="315"
-    src="https://www.youtube.com/embed/tgbNymZ7vqY">
-    </iframe>
-
-    <h3>Loop</h3>
-    <iframe width="420" height="315"
-    src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
-    </iframe>
+    <div id="header">
+        <h3>Embedding videos on an HTML page</h3>
+    </div>
+    <section>
+        <div id="menu">
+            <h3>No Menu</h3>
+        </div>
+        <div id="body">
+            <p>It is recommended to upload all videos to YouTube then embed the YouTube video.</p>
+            <h3>Using iFrame:</h3>
+            <iframe width="440" height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+    
+            <h3>Loop</h3>
+            <iframe width="440" height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+            </iframe>
+        </div>
+    </section>
+    
+    <div id="footer">
+        <h3>Footer</h3>
+    </div>
 </body>
 </html>
+
+

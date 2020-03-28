@@ -1,9 +1,36 @@
 Websites for Mobile and Desktops
 
+In this new age where you can get access to the internet on more devices that you can think of, persons tend to use their mobile phone, not
+just to text and to call, but to optimize their lives. This means that they would turn to their mobile phone to do most online activities,
+be it social media, get directions, or make a simple Google search.
+
+Due to the increased number of persons prefering to use their mobile phone over other devices, it crucial to create websites that are mobile 
+friendly. This means the website should look and function great on any mobile device. A mobile website should be sized and coded for easy 
+interaction on a mobile device. Meaning, it's easy to read the text, easy to navigate the page and very pleasing to look at.
+
+A mobile friendly website is necessary if you want to keep customers as well as getting new customers.
+
+The difference between a Mobile and Desktop websites:
+Desktop websites:
+1. Content is usually designed for a portrait orientation. This allows content to be able to stretch across the screen. This allows
+multiple messages and images to live comfortably in a wide space.
+2. Filling out forms would be easier on desktops as there is plenty space for the form content to display on the screen.
+3. Menus are even easier, plenty information can be fitted without making it look cramped. Example, desktop websites would have 
+mega-menus with many categories and subcategories. due to the large screen, it looks neat.
+
+Mobile websites:
+1. Content, which is designed for portrait orientation, needs to be stack virtically so as to not have content on the same horizontal line, cramped.
+Usually less content is showed at once and have drop down options to display needed information.
+2. Filling out forms would also need to be done virtically as we can't expect the consumer to swipe left and right to see the content of the form.
+3. For mobile menus, due to the small screens, the menu icons are usually large. Dependin on which option is choosen, the menu either collapses 
+or expands to maximise the use of space on the screen.
+
+
+
 Websites can be made specifically for mobile devices. These websites usually start with m. Example, m.facebook.com.
 Creating websites specifically for mobile devices usually means that you now have 2 websites to maintain and update rather than 1.
 
-If you want a website that could work both on desktops and mobile devices, in the css section, the page size is set dynamically.
+If you would like a website that could work both on desktops and mobile devices, in the css section, the page size is set dynamically.
 It's usually set with minimum values and can be increase according to the size of the device using viewport.
 These are called dynamic websites.
 
@@ -24,3 +51,10 @@ JavaScript is a client side language, meaning that it runs on your browser.
 Note:
 JavaScript is not and has nothing to do with Java. The official name for JavaScript is ECMAScript
 Java was popular at the time and they jumped on the bandwagon and used Java in their name.
+
+
+Script Tags for JavaScript
+The <script> tag is used to define client-side script(JavaScript). The <script> element either contains script statements, or it points
+to an external script file through a src attribute.
+
+JavaScript is used for image manipulation, form validation and dynamic changes of content.
