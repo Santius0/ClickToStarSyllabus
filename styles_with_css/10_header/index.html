@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Marcus Sanatan</title>
+    <style>
+        /* Reset CSS properties
+            This helps make our style more consistent across browsers */
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        /* Tell browsers that we want to use the entire page */
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #main {
+            background-color: #11C9FF;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Dosis, Helvetica, sans-serif;
+            color: #ffffff;
+        }
+
+        /* The banner image is a lovely circle */
+        .banner-image {
+            border: 10px solid #EAEAEA;
+            border-radius: 50%;
+        }
+
+        /* This wraps around the site's contents */
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .banner {
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        /* Load custom fonts */
+        @font-face {
+            font-family: Dosis;
+            src: url('./fonts/dosis.otf');
+        }
+
+        .banner h1 {
+            font-size: 144px;
+        }
+
+        .banner p {
+            font-size: 32px;
+        }
+
+        /* Our footer is simple, we add a minimum height so that it can be
+        easily seen on mobile devices too */
+        footer {
+            min-height: 50px;
+            background-color: #ffffff;
+            font-family: Dosis, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Headers should only take up the entire width of the page */
+        header {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        @font-face {
+            font-family: 'Bebas Neueu';
+            src: url('../fonts/bebas\ neue.ttf');
+        }
+
+        /* This navigation bar will be used on all webpages. We use CSS' flexbox
+        to position the menu items contained withing */
+        .navbar {
+            background-color: #ffffff;
+            font-family: 'Bebas Neueu', Impact, Haettenschweiler, sans-serif;
+            color: #11C9FF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Give the home icon some space on the left */
+        .nav-home {
+            padding-left: 40px;
+        }
+
+        /* Ensure that the navigation pages go horiztonally */
+        .nav-links {
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* Navigation buttons have space between them and should be visible */
+        .button {
+            padding: 30px;
+            text-decoration: none;
+            font-size: 32px;
+        }
+
+        /* Make the home button a bit bigger */
+        .home-button {
+            font-size: 44px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="nav-home">
+                    <a href="/" class="button home-button">Home</a>
+                </div>
+                <div class="nav-links">
+                    <a href="/music/" class="button">Music</a>
+                    <a href="https://www.facebook.com/msanatan" class="button" target="_blank">Facebook</a>
+                </div>
+            </nav>
+        </header>
+        <div id="main">
+            <div class="banner">
+                <img class="banner-image" src="images/marcus.jpg" alt="Picture of me" width="300px">
+                <h1>Marcus Sanatan</h1>
+                <p>Musings of a little coder in the Caribbean</p>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; Marcus Sanatan 2020 | <a href="mailto:me@msanatan.com">me@msanatan.com</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
