@@ -58,3 +58,7 @@ Let's add a new style for the `banner-image` class. We want to give it a border,
 Note the `.` before the name of the class. We must identify classes that way in our CSS code. In our first line we add a thick, grey border to our image. We then define a `border-radius`, a property that determines how much the corners of our borders curve. You can experiment with the values, `50%` works for me!
 
 So far so good, but still lots of room for improvement. There's a lot of free space on our website. Why? Most browsers calculate how large our content is, and only shows us what it's taking up.. Let's learn how to use CSS so our content takes up the entire page.
+
+## Make It Your Own
+
+You can tweak the `border-radius` property to make it more circular or less circular. Maybe you don't your border to be grey, no problem! Style it as you see fit

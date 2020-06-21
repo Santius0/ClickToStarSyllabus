@@ -88,3 +88,7 @@ Note how we created two new classes: `songs` which contains a row of songs and `
 ```
 
 Now that's perfect! Why don't add more of your own music?
+
+## Make It Your Own
+
+This is an easy one, choose your favourite songs!

@@ -83,3 +83,7 @@ justify-content: center;
 This property describes the position of items *on the main-axis* of the flex layout. So, as our `flex-direction` is column, it describes how the items are laid out vertically. If our `flex-direction` was row, it would describe how items are laid out horizontally.
 
 Our website is taking shape! While our image pops up, our text is bland. Let's learn some font properties so we can make our words pop out a bit.
+
+## Make It Your Own
+
+Experiment with the flex properties you've learn so far. See how changing those values move the content around the page!

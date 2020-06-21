@@ -54,4 +54,8 @@ footer a:hover {
 }
 ```
 
-Nice, our page looks pretty good. I think we can put a pin on the homepage for now and set up our music page
+Nice, our page looks pretty good. I think we can put a pin on the homepage for now and set up our music page.
+
+## Make It Your Own
+
+These buttons can be style as you see fit. You can give them borders like we do with `divs`. With a border, you can make them more round with the `border-radius` property. Make sure the colours are to your liking as well!

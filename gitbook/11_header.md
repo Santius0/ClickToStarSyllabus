@@ -108,4 +108,4 @@ Finally, let's make the "Home" button a bit bigger and spacious:
 }
 ```
 
-Much better! Our buttons are starting to shine a bit. However, the color is a bit drab. When we hover over them, nothing happens either. It'd be nice to know if we're going to click the right button. We'll style these with pseudo-classes
+Much better! Our buttons are starting to shine a bit. However, the color is a bit drab. When we hover over them, nothing happens either. It'd be nice to know if we're going to click the right button. We'll style these with pseudo-classes.

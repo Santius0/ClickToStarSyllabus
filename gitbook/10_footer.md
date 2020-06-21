@@ -71,3 +71,7 @@ We should only need to scroll down if there's lots of content in our page, there
 And great! Our footer is visible at the bottom of the page as soon as we load it. No scrolling necessary!
 
 Great job so far, your website is really taking shape. Now let's put our attention to the header of the site.
+
+## Make It Your Own
+
+Having practice with colours, flex positions and fonts - how can you improve on this simple footer?

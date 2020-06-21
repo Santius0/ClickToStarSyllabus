@@ -99,3 +99,7 @@ You've just written your first cascading style! By using `.banner h1`, we're tel
 We set the `font-size` property, which as you expect determines the size of the text. Larger values make for bigger font. When describing the font for the `h1` we say our text is 144 pixels big. A pixel is a single dot on our screen. That's why we have `px` at the end of the number.
 
 Our main site looks awesome! Let's spruce it up a bit more with a footer.
+
+## Make It Your Own
+
+These fonts work for me, but feel free to search online for fonts. How about something pixelated? Or fonts that use cursive? Search, download and add it to your website!

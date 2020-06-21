@@ -29,3 +29,7 @@ This landing page contains a few things:
 * An image of yourself (ideal dimensions are 650x650). Don't forget to write a nice description of the image in the `alt` attribute so those with screen readers will know what's on the webpage.
 * Your name in the `h1` tag
 * A nice summary of what this site is about in the `p` tag
+
+## Make It Your Own
+
+This is **your** website, make sure you put the content that refelcts who **you** are.

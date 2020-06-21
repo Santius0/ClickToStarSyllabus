@@ -33,3 +33,7 @@ Let's do a basic CSS Reset by removing the whitespace in our HTML's `body`:
 ```
 
 Now our whitespace is gone!
+
+## Make It Your Own
+
+Choose a colour that suits your best. Extra credit for making the colour blend with your picture!
