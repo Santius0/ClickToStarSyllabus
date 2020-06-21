@@ -1,5 +1,9 @@
 # Setup
 
+What we're building?
+
+![Screenshot of completed step](screenshot02.png)
+
 Let's begin by creating the HTML markup for our main page:
 
 ```html

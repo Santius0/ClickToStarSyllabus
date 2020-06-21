@@ -1,5 +1,9 @@
 # Changing the Background
 
+What we're building?
+
+![Screenshot of completed step](screenshot03.png)
+
 Our page is pretty bland on many levels. Let's start sprucing it up with some colour. We can easily add CSS to HTML elements with their style attribute.
 
 ```html

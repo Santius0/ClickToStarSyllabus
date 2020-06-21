@@ -1,5 +1,9 @@
 # Font
 
+What we're building?
+
+![Screenshot of completed step](screenshot06.png)
+
 What we say and how it's said is very important \- in life! On a website, how it looks matter as well. Fonts are an intricate part of web design. With CSS, we can change the font of our text to match the theme of our site.
 
 Let's begin by downloading a special font for our website \- Dosis. You can get it here <https://www.fontsquirrel.com/fonts/dosis>. Save the file as `dosis.otf` and put it in a new `fonts` folder.

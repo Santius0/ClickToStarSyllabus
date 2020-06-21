@@ -1,5 +1,9 @@
 # Psuedo-Classes
 
+What we're building?
+
+![Screenshot of completed step](screenshot09.png)
+
 A pseudo (meaning fake) class talks about the *state* of a CSS class. And what's their state? State could mean whether we're hovering over the object, or if we visited a link already.
 
 Pseudo classes look a bit different from what we've seen before:

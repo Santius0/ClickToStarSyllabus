@@ -1,5 +1,9 @@
 # Footer
 
+What we're building?
+
+![Screenshot of completed step](screenshot07.png)
+
 Most websites have a footer, a division in your page that's at the bottom. Footers can be used, they provide a different visual outlet and can contain little useful bits of information like copyright or a link to your privacy policy.
 
 Let's add a footer in our page that'll contain our copyright information. In your `index.html`, we'll add a *sibling element* after our main `div`. That means, we're adding content next to `#main`, and not inside it.

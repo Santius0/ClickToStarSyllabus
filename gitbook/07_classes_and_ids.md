@@ -1,5 +1,9 @@
 # IDs and Classes
 
+What we're building?
+
+![Screenshot of completed step](screenshot04.png)
+
 As our webpage grows, we're need to find ways to identify elements. To get our content to take up the entire screen, we have to add a lot `div` tags. Different `divs` will have different styles, how can we tell them apart?
 
 With HTML and CSS, we can give elements an ID or a class. An ID is a unique identifier for an HTML element. A class is also an identifier, but it's not unique. An HTML element can have many classes. A class can be used by many HTML elements.

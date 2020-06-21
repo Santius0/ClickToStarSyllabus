@@ -1,5 +1,9 @@
 # Layout
 
+What we're building?
+
+![Screenshot of completed step](screenshot05.png)
+
 We want to make better use of our space i.e. improve the layout of elements. CSS has many ways to define a layout. In this project, we'll utilize flexbox \- flexible boxes. The main idea is to tell the browser which direction we should position our HTML elements.
 
 We'll use the flexbox layout to center our items on the page.

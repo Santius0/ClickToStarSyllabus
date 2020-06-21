@@ -1,5 +1,9 @@
 # Embedding Videos
 
+What we're building?
+
+![Screenshot of completed step](screenshot10.png)
+
 Now that we set up our music page, let's add some music to it. We'll do this by placing our favourite YouTube videos on the page. We won't just add a link, we'll allow people visiting our website to play the videos too.
 
 Before we start adding songs, let's give a clue to the user that this is a different page from the main page. Of course, when they see YouTube videos loading it will be obvious, but a little notice never hurts.

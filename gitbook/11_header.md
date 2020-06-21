@@ -1,5 +1,9 @@
 # Header
 
+What we're building?
+
+![Screenshot of completed step](screenshot08.png)
+
 Most websites have headers as well \- a bar at the top of the page with that helps you navigate to other pages. The header is one of the first things a user sees, so make sure it's pretty and functional!
 
 Let's build our header. It will have three buttons:
